@@ -1,3 +1,4 @@
+using DemoApi.Behaviors;
 using DemoLibrary;
 using DemoLibrary.DataAccess;
 using MediatR;
@@ -13,6 +14,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<IDataAccess, DemoDataAccess>();
 builder.Services.AddMediatR(typeof(DemoLibraryMediatREntryPoint).Assembly);
+builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>));
+builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(GtsBehavior<,>));
 
 var app = builder.Build();
 
