@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorUI", "BlazorUI\BlazorUI.csproj", "{3E38A81B-C893-4FD2-AB22-FF569B9220BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoLibrary", "DemoLibrary\DemoLibrary.csproj", "{A6B040A7-4AC6-4FC0-97FD-CCAA23CFA232}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApi", "DemoApi\DemoApi.csproj", "{60001DF2-A70F-4AD4-8433-0F74B3731AC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E38A81B-C893-4FD2-AB22-FF569B9220BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E38A81B-C893-4FD2-AB22-FF569B9220BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E38A81B-C893-4FD2-AB22-FF569B9220BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E38A81B-C893-4FD2-AB22-FF569B9220BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B040A7-4AC6-4FC0-97FD-CCAA23CFA232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B040A7-4AC6-4FC0-97FD-CCAA23CFA232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B040A7-4AC6-4FC0-97FD-CCAA23CFA232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B040A7-4AC6-4FC0-97FD-CCAA23CFA232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60001DF2-A70F-4AD4-8433-0F74B3731AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60001DF2-A70F-4AD4-8433-0F74B3731AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60001DF2-A70F-4AD4-8433-0F74B3731AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60001DF2-A70F-4AD4-8433-0F74B3731AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88FC52D3-569F-46EE-B4E9-6E5142B72329}
+	EndGlobalSection
+EndGlobal
